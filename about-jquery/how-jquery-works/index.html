@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+  <style>
+a.test {
+    font-weight: bold;
+}
+
+</style>
+  <meta charset="utf-8">
+  <title>Demo</title>
+</head>
+
+<body>
+
+  <a href="http://jquery.com/">Free</a>
+  <a href="http://jquery.com/">My</a>
+  <a href="http://jquery.com/">boys</a>
+  <a href="http://jquery.com/">Cannabis</a>
+  <a href="http://jquery.com/">And</a>
+  <a href="http://jquery.com/">Hemp</a>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <script>
+    window.onload = function() {
+
+    alert( "welcome to my crib ;p" );
+
+};
+    $(document).ready(function() {
+
+      $("a").click(function(event) {
+
+        alert("May the Chicken of Happiness and the Sausage of Prosperity follow you where ever you go!");
+        event.preventDefault();
+      });
+
+    });
+  </script>
+</body>
+
+</html>
